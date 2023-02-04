@@ -7,6 +7,7 @@ import SuperHero from "./components/Superhero";
 import "./style/landingPage.css";
 
 function App() {
+  document.title = "cinema";
   return (
     <div>
       <div className="myBG">
