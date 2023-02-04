@@ -1,10 +1,10 @@
-import { Card, Container, Row, Col, Image } from "react-bootstrap"
-import antmanImage from "../assets/images/superhero/antman.jpg"
-import avengerImage from "../assets/images/superhero/avenger.jpg"
-import batmanImage from "../assets/images/superhero/batman.jpg"
-import robinhoodImage from "../assets/images/superhero/robinhood.jpg"
-import spidermanImage from "../assets/images/superhero/spiderman-cover.jpg"
-import supermanImage from "../assets/images/superhero/superman.jpg"
+import {Card, Container, Row, Col, Image} from "react-bootstrap";
+import antmanImage from "../assets/images/superhero/antman.jpg";
+import avengerImage from "../assets/images/superhero/avenger.jpg";
+import batmanImage from "../assets/images/superhero/batman.jpg";
+import robinhoodImage from "../assets/images/superhero/robinhood.jpg";
+import spidermanImage from "../assets/images/superhero/spiderman-cover.jpg";
+import supermanImage from "../assets/images/superhero/superman.jpg";
 
 const SuperHero = () => {
   return (
@@ -127,7 +127,7 @@ const SuperHero = () => {
         </Row>
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default SuperHero
+export default SuperHero;
